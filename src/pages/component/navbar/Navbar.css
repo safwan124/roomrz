@@ -1,0 +1,40 @@
+.navbar{
+    height: 60px;
+    background-color: #4f0080;
+    display: flex;
+    justify-content: center;
+}
+  
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navButton {
+    margin-left: 20px;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    color: #4f0080; /* Text color */
+    background-color: white; /* Background color */
+    border-radius: 16px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Elevation effect */
+    font-weight: bold;
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+.navButton:hover {
+    background-color: #e0dede; /* Slightly darker on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Increased shadow on hover */
+}
+  

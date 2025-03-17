@@ -1,0 +1,142 @@
+.header {
+    background-color: #4f0080;
+    color: white;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    margin: 20px 0 100px 0;
+}
+
+.headertitle {
+    font-size: 48px; 
+    font-weight: bold;
+    line-height: 0.5; 
+    margin: 100px 0 20px 0
+}
+  
+.headerdescription {
+    font-size: 24px; 
+    line-height: 0.5; 
+    margin-bottom: 15px;
+}
+  
+.hashtag {
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+
+.headerSearch {
+    height: 30px;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerIcon {
+    color: rgb(0, 0, 0);
+}
+
+.headerSearchItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput {
+    border: none;
+    outline: none;
+}
+
+.headerSearchText {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.headerSearchBtn {
+    background-color: #4f0080;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.headerBtn {
+    background-color: #4f0080;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  
+.date {
+    position: absolute;
+    top: 70px;
+    z-index: 2;
+}
+
+.dateRangePicker {
+    position: absolute;
+    top: 50px; /* Adjust this value to place it under the date input */
+    left: 0;
+    z-index: 1000;
+    background-color: white; /* Optional: To make sure the calendar has a background */
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.options {
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.optionCounterButton {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    cursor: pointer;
+    background-color: white;
+}
+
+.optionCounterButton:disabled {
+    cursor: not-allowed;
+}
